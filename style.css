@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo do menu */
+
+header{
+    background-color: #064420;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.358);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.nav-links li a:hover{
+    color: yellowgreen;
+    transition: 0.3s;
+}
+
+/* banner */
+
+.foco{
+    width: 100%;
+    min-height: 100vh;
+    background: url(img/banner.jpeg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.foco h1{
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    text-align: center;
+    padding-top:200px;
+    margin-bottom: 40px;
+    line-height: 50px;
+    
+}
+
+.foco p{
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 35px;
+}
+
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #064420;
+    padding: 7px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.595);
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: #064420;
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px black;
+}
+
+.serviços{
+    color: white;
+    width: 100%;
+    height: 150px;
+    background:linear-gradient(to bottom, #064420,#2d7049, #33935b) ;
+}
+
+.serviços h2{
+    font-family: raleway;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-top: 18px;
+    padding-left: 20px;
+    
+}
+
+.serviços p{
+    font-family: lato;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.nossos{
+    height: 435px;
+}
+
+.nossos h2{
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    text-align: center;
+    color: #064420;
+}
+
+.serv-img{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.serv-img h3{
+    color: #33935b;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* banner 02 */
+
+.banner02{
+    width: 100%;
+    height: 250px;
+    background: url(img/banner.jpeg) no-repeat center;
+    text-align: center;
+    margin-top: 600px;
+    margin-bottom: 8px;
+    background-size: cover;
+    
+}
+
+.banner02 h2{
+    padding-top: 30px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.banner02 h1{
+    padding-top: 10px;
+    font-size: 30px;
+    color: #0e4e29;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.atuacoes{
+    height: 435px;
+}
+
+.atuacoes h2{
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    text-align: center;
+    color: #064420;
+}
+
+
+
+.att-img{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.att-img h3{
+    color: #33935b;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* logo */
+
